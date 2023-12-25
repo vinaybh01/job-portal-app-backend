@@ -7,7 +7,12 @@ const port = 3000;
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://job-portal-app.onrender.com"],
+    origin: [
+      "http://localhost:5173",
+      "https://job-portal-app.onrender.com",
+      "https://job-portal-app-3puy.onrender.com",
+      "https://job-portal-app-4puy.onrender.com",
+    ],
   })
 );
 
